@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,64 @@
     <title>Supabase</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="navbar">
-                <div class="logo">
-                    <img src="" alt="">
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, obcaecati.</h1>
+                <div class="nav">
+                    <div class="logo">
+                        <img src="./images/logo.svg" alt="Logo">
+                    </div>
+                    <ul class="nav__items">
+                        <li class="nav__item"><a href="" class="nav__link">Product<svg width="11" height="7"
+                                    viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.293 1.293C0.480528 1.10553 0.734836 1.00021 1 1.00021C1.26516 1.00021 1.51947 1.10553 1.707 1.293L5 4.586L8.293 1.293C8.38525 1.19749 8.49559 1.12131 8.6176 1.0689C8.7396 1.01649 8.87082 0.988904 9.0036 0.987751C9.13638 0.986597 9.26806 1.0119 9.39095 1.06218C9.51385 1.11246 9.6255 1.18671 9.71939 1.28061C9.81329 1.3745 9.88754 1.48615 9.93782 1.60905C9.9881 1.73194 10.0134 1.86362 10.0123 1.9964C10.0111 2.12918 9.98351 2.2604 9.9311 2.38241C9.87869 2.50441 9.80251 2.61475 9.707 2.707L5.707 6.707C5.51947 6.89447 5.26516 6.99979 5 6.99979C4.73484 6.99979 4.48053 6.89447 4.293 6.707L0.293 2.707C0.105529 2.51947 0.000213623 2.26517 0.000213623 2C0.000213623 1.73484 0.105529 1.48053 0.293 1.293Z"
+                                        fill="white" />
+                                </svg>
+                            </a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Developers<svg width="11" height="7"
+                                    viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.293 1.293C0.480528 1.10553 0.734836 1.00021 1 1.00021C1.26516 1.00021 1.51947 1.10553 1.707 1.293L5 4.586L8.293 1.293C8.38525 1.19749 8.49559 1.12131 8.6176 1.0689C8.7396 1.01649 8.87082 0.988904 9.0036 0.987751C9.13638 0.986597 9.26806 1.0119 9.39095 1.06218C9.51385 1.11246 9.6255 1.18671 9.71939 1.28061C9.81329 1.3745 9.88754 1.48615 9.93782 1.60905C9.9881 1.73194 10.0134 1.86362 10.0123 1.9964C10.0111 2.12918 9.98351 2.2604 9.9311 2.38241C9.87869 2.50441 9.80251 2.61475 9.707 2.707L5.707 6.707C5.51947 6.89447 5.26516 6.99979 5 6.99979C4.73484 6.99979 4.48053 6.89447 4.293 6.707L0.293 2.707C0.105529 2.51947 0.000213623 2.26517 0.000213623 2C0.000213623 1.73484 0.105529 1.48053 0.293 1.293Z"
+                                        fill="white" />
+                                </svg>
+                            </a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Beta</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <a href="#" class="start__btn">Start your project</a>
+                    <a href="#" class="sigh__btn">Sign in</a>
                 </div>
             </div>
         </div>
     </header>
+    <main>
+        <section>
+            <div class="hero">
+                <div class="hero__text">
+                    <div class="hero__text__icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 6C0 2.68629 2.68629 0 6 0H26C29.3137 0 32 2.68629 32 6V26C32 29.3137 29.3137 32 26 32H6C2.68629 32 0 29.3137 0 26V6Z" fill="white"/>
+                            <path d="M9.375 12H21.625H9.375ZM9.375 12C8.91087 12 8.46575 11.8156 8.13756 11.4874C7.80937 11.1592 7.625 10.7141 7.625 10.25C7.625 9.78587 7.80937 9.34075 8.13756 9.01256C8.46575 8.68437 8.91087 8.5 9.375 8.5H21.625C22.0891 8.5 22.5342 8.68437 22.8624 9.01256C23.1906 9.34075 23.375 9.78587 23.375 10.25C23.375 10.7141 23.1906 11.1592 22.8624 11.4874C22.5342 11.8156 22.0891 12 21.625 12H9.375ZM9.375 12V20.75C9.375 21.2141 9.55937 21.6592 9.88756 21.9874C10.2158 22.3156 10.6609 22.5 11.125 22.5H19.875C20.3391 22.5 20.7842 22.3156 21.1124 21.9874C21.4406 21.6592 21.625 21.2141 21.625 20.75V12H9.375ZM13.75 15.5H17.25Z" fill="#6A6A6A"/>
+                            </svg>
+                            Storage
+                    </div>
+                    <h1 class="hero__title">Store and serve any type of digital content</h1>
+                    <p>
+                        An open source Object store service with unlimited scalability, for any file type.
+                    </p>
+                    <p>
+                        With custom policies and permissions that are familiar and easy to implement.
+                    </p>
+                    <a href="#" class="hero__btn">Start a project</a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

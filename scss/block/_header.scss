@@ -1,0 +1,70 @@
+header{
+    background: black;
+    width: 100%;
+    position: fixed;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .nav__item {
+                list-style: none;
+
+                .nav__link {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #EEEEEE;
+                    padding: 10px 30px
+                }
+                svg{
+                    margin-left: 10px
+                }
+            }
+        }
+
+    }
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sigh__btn{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #EEEEEE;
+        text-decoration: none;
+        margin-left: 20px
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.start__btn {
+    @include buttun(btn);
+}

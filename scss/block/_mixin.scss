@@ -1,0 +1,29 @@
+@mixin buttun($value){
+    @if($value ==  'btn'){
+        background: #24B47E;
+        color: #FFFFFF;
+        padding: 6px 17px;
+        border-radius: 4px;
+        font-size: 14px;
+        text-decoration: none;
+        border: 2px solid #24B47E;
+        transition: all .4s;
+        &:hover{
+            color: #24B47E;
+            background-color: #FFFFFF;
+        }
+    }@else{
+        background: #24B47E;
+        color: #FFFFFF;
+        padding: 6px 15px;
+        border-radius: 4px;
+        font-size: 14px;
+        text-decoration: none;
+        border: 2px solid #24B47E;
+        transition: all .4s;
+        &:hover{
+            color: #24B47E;
+            background-color: #FFFFFF;
+        }
+    }
+  }

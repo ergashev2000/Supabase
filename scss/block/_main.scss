@@ -1,0 +1,17 @@
+.hero__text{
+    display: block;
+    margin-left: 10%;
+    padding: 100px;
+    .hero__title{
+        
+    }
+    svg{
+        color: var(--color-white);
+        margin-right: 15px;
+    }
+    &__icon{
+        color: var(--color-white);
+        display: flex;
+        align-items: center;
+    }
+}
