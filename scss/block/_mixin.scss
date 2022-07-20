@@ -12,10 +12,10 @@
             color: #24B47E;
             background-color: #FFFFFF;
         }
-    }@else{
+    }@else if($value == 'main__btn'){
         background: #24B47E;
         color: #FFFFFF;
-        padding: 6px 15px;
+        padding: 8px 30px;
         border-radius: 4px;
         font-size: 14px;
         text-decoration: none;

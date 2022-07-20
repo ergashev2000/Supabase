@@ -114,15 +114,50 @@ header {
 
 .hero__text {
   display: block;
-  margin-left: 10%;
-  padding: 100px;
+  margin-left: 5%;
+  padding-top: 150px;
+  width: 40%;
+}
+.hero__text .par {
+  margin-bottom: 60px;
+}
+.hero__text p {
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 28px;
+  width: 80%;
+}
+.hero__text .hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--color-white);
 }
 .hero__text svg {
-  color: var(--color-white);
   margin-right: 15px;
 }
 .hero__text__icon {
   color: var(--color-white);
   display: flex;
   align-items: center;
+}
+
+.hero__btn {
+  background: #24B47E;
+  color: #FFFFFF;
+  padding: 8px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #24B47E;
+  transition: all 0.4s;
+  margin-left: 10%;
+}
+.hero__btn:hover {
+  color: #24B47E;
+  background-color: #FFFFFF;
+}
+
+svg > path {
+  fill: red;
 }/*# sourceMappingURL=main.css.map */

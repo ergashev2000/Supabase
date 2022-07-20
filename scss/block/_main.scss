@@ -1,17 +1,40 @@
-.hero__text{
+.hero__text {
     display: block;
-    margin-left: 10%;
-    padding: 100px;
-    .hero__title{
-        
+    margin-left: 5%;
+    padding-top: 150px;
+    width: 40%;
+    .par{
+        margin-bottom: 60px;
     }
-    svg{
+    p {
         color: var(--color-white);
+        font-size: 14px;
+        line-height: 28px;
+        width: 80%;
+    }
+
+    .hero__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: var(--color-white);
+    }
+
+    svg {
         margin-right: 15px;
     }
-    &__icon{
+
+    &__icon {
         color: var(--color-white);
         display: flex;
         align-items: center;
     }
+    
+}
+.hero__btn{
+    @include buttun(main__btn);
+    margin-left: 10%;
+}
+svg > path{
+    fill: red;
 }
