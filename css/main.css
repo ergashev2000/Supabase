@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+  --color-white: #fff;
+  --color-dark: #000;
+  --color-success: #24B47E;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;
@@ -14,9 +21,10 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 img {
@@ -29,4 +37,10 @@ img {
 
 .main {
   flex-grow: 1;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */
